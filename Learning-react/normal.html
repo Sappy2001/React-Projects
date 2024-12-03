@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-image: url(image11.jpg);
+        }
+        nav{
+           
+            position: relative;
+            background-color: black;
+            height: 65px;
+         
+        }
+        ul{
+            height: inherit;
+            margin: 0;
+            overflow: auto;
+            
+        }
+        li{
+           
+            float: left;
+            list-style: none;
+            color: aliceblue;
+            padding: 22px;
+        }
+        li:hover{
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+        .logo{
+            
+            background-image: url(reshot-icon-yoga-7C8RN52A4Z.svg);
+            display: inline;
+            float: left;
+            padding: 30px;
+            margin: 0 20px;
+            
+        }
+        .search{
+            float: right;
+            padding: 22px;
+            position: relative;
+            display: inline;
+            top: 0;
+        }
+        #searchBox{
+            text-align: center;
+            padding: 5px;
+            border-radius: 8px;
+        }
+        .img{
+            width: 100px;
+            height: 80vh;
+        }
+        span{
+            width: 60px;
+            margin:18px 15px;
+            color: aliceblue;
+            float: left;
+            padding: 6px;
+            text-align: center;
+            background-color: blueviolet;
+            border-radius: 15px;
+           
+        }
+        span:hover{
+            background-color: white;
+            color:blueviolet;
+            cursor: pointer;
+        }
+        #call{
+            margin-left:80px ;
+        }
+        h1{
+            text-align: center;
+        }
+
+        form{
+            position: relative;
+            width: 50rem;
+            height: 50vh;
+            left: 30px;
+            
+        }
+
+        fieldset{
+            width: 48rem;
+            height: 46vh;
+            text-align: start;
+            border: 10px solid rgb(39, 99, 114);
+            color: aliceblue;
+            font-size: 1.5em;
+            border-radius: 5px;
+            background-color: rgba(100, 96, 96, 0.293);
+            
+
+        }
+        legend{
+            text-align: center;
+            background-color: rgb(39, 99, 114);
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(219, 219, 235);
+            border-radius: 15px;
+            width:inherit;
+
+        }
+        .uinput{
+
+            position: relative;
+            border-radius: 8px;
+            width: 40em;
+            padding: 10px;
+            margin: 20px 40px;
+         
+        }
+       
+        label{
+            display: inline-block;
+            margin-right: 20px;
+            width: 40px;
+        }
+        .submit{
+            display: block;
+            position: relative;
+            padding: 5px;
+            bottom:10px;
+            width: 5em;
+            left: 30em;
+            background-color: rgb(39, 99, 114);
+            color: aliceblue;
+            font-size: 22px;
+            border-radius: 8px;
+            margin: 0;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+           
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Fitness Calculator</li>
+            <span id="call"> Call us</span>
+            <span id="email">Email Us</span>
+            <div class="search">
+                <input type="text" name="searchBox" id="searchBox" placeholder="search your query">
+            </div>
+        </ul>
+       
+    </nav>
+<main>
+
+        <h1>Start Your Fitness Journey</h1>
+        <form action="www.google.com">
+            <fieldset>
+                <legend>Enter the details</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="Uname" id="name" class="uinput"><br>
+                <label for="email">Email:</label>
+                <input type="text" name="Uemail" id="email" class="uinput"><br>
+                <label for="phone">Phone:</label>
+                <input type="text" name="Uphone" id="phone" class="uinput"><br>
+                <label for="address">Address:</label>
+                <input type="text" name="Uaddress" id="address" class="uinput"><br>
+                
+                <input type="submit" value="submit" class="submit">
+
+            </fieldset>
+        </form>
+
+
+     
+</main>
+
+
+</body>
+</html> 

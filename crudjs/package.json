@@ -1,0 +1,19 @@
+{
+  "name": "event",
+  "version": "1.0.0",
+  "description": "event rstful api",
+  "main": "app.js",
+  "scripts": {
+    "nodemon": "nodemon app.js"
+  },
+  "author": "SaptangsuModak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
